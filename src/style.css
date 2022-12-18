@@ -1,0 +1,103 @@
+.weather-app {
+    max-width: 650px;
+    margin: 100px auto 0px;
+    border: 7px solid rgba(255, 254, 254, 0.6);
+    border-radius: 10px;
+    border-style:double;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.app {
+    color: rgb(36, 111, 152);
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1 {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 50px;
+}
+
+.kursiv {
+    font-style:italic;
+    font-size: smaller;
+}
+
+.inline {
+    display:inline-table;
+}
+
+.city {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(36, 111, 152);
+}
+
+.listnone {
+    list-style: none;
+    margin:auto;
+    padding: 0px;
+}
+
+.temperaturemain {
+    font-size: 80px;
+    margin-left: 10px;
+    color: rgb(36, 111, 152);
+}
+
+.degree {
+    font-size: 40px;
+    vertical-align: super;
+    color: rgb(36, 111, 152);
+}
+
+.units {
+    text-decoration: none;
+}
+
+.active {
+color:  rgb(36, 111, 152);
+cursor: default;
+}
+
+.image1 {
+    max-width: 90px;
+}
+
+.button {
+    background-color: rgb(145, 217, 243);
+    border:rgb(36, 144, 212);
+    border-radius: 5px;
+    padding:6px 40px;
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+}
+
+.morespace {
+    column-width: 400px;
+    padding-left: 10px;
+}
+
+.footer-app {
+    max-width: 300px;
+    margin: 300px auto;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.weekday-forecast {
+    text-align: center;
+    margin: auto;
+}
+
+.weekdays {
+    min-width: 90px;
+}
+
+.alldays {
+    margin: auto;
+    width: 100%;
+}
