@@ -53,24 +53,6 @@ function formatDate(timestamp) {
 
         celciusTemp = response.data.main.temp;
     
-       
-        let icon1Element = document.querySelector("#icon1");
-        let icon2Element = document.querySelector("#icon2");
-        let icon3Element = document.querySelector("#icon3");
-        let icon4Element = document.querySelector("#icon4");
-        let icon5Element = document.querySelector("#icon5");
-        let icon6Element = document.querySelector("#icon6");
-    
-        
-    
-        let weekdayElement = document.querySelector("#weekday");
-        let weekday1Element = document.querySelector("#weekday1");
-        let weekday2Element = document.querySelector("#weekday2");
-        let weekday3Element = document.querySelector("#weekday3");
-        let weekday4Element = document.querySelector("#weekday4");
-        let weekday5Element = document.querySelector("#weekday5");
-        let weekday6Element = document.querySelector("#weekday6");
-    
         temperatureElement.innerHTML = Math.round (response.data.main.temp);
         cityElement.innerHTML = response.data.name;
         descriptionElement.innerHTML = response.data.weather[0].description;
@@ -129,3 +111,7 @@ function formatDate(timestamp) {
 
     search("New York");
     displayForecast();
+
+
+
+    // https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
