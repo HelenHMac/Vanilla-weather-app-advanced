@@ -9,14 +9,14 @@
 
 .app {
     color: rgb(36, 111, 152);
-    margin: 20px;
+    margin: 20px 10px 30px;
     text-align: center;
     font-weight: bold;
 }
 
 .container1 {
     background-color: rgba(255, 255, 255, 0.4);
-    padding: 5px 50px;
+    padding: 5px 30px;
 }
 
 .kursiv {
@@ -77,11 +77,12 @@ cursor: default;
 .morespace {
     column-width: 400px;
     padding-left: 10px;
+
 }
 
 .footer-app {
     max-width: 300px;
-    margin: 300px auto;
+    margin: 200px auto;
     display: block;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
@@ -98,6 +99,19 @@ cursor: default;
 }
 
 .alldays {
-    margin: auto;
-    width: 100%;
+    background-color: rgba(145, 217, 243, 0.336);
+    border: 7px solid rgba(255, 254, 254, 0.6);
+    border-radius: 10px;
+    border-style:double;
+    padding:1% 5%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.forecastmg {
+    width: 80%;
+}
+
+.mintemp {
+color: rgb(106, 106, 111);
 }
